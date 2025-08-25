@@ -7,7 +7,7 @@ const ProtectedRoute = ({ children }) => {
   useEffect(() => {
     const checkAuth = async () => {
       try {
-        const res = await fetch('https://backend-portfolio-2v04.onrender.com/verify', {
+        const res = await fetch('https://portfolio-ekt6.onrender.com/verify', {
           method: 'GET',
           credentials: 'include',
         });

@@ -46,7 +46,7 @@ const Logout = () => {
   const handleLogout = async () => {
     setIsLoading(true);
     try {
-      const res = await fetch('https://backend-portfolio-2v04.onrender.com/logout', {
+      const res = await fetch('https://portfolio-ekt6.onrender.com/logout', {
         method: 'POST',
         credentials: 'include', // Important for clearing the cookie
       });
