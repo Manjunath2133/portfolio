@@ -13,6 +13,7 @@ import ScrollToTop from './assets/components/ScrollToTop';
 import Certificates from "./assets/components/Certificates";
 import Hackathon from "./assets/components/Hackathons";
 import Logout from './assets/components/Logout';
+import Experience from './assets/components/Experience';
 import ProtectedRoute from './assets/components/ProtectedRoute';
 
 
@@ -35,6 +36,7 @@ function App() {
             <Home />
             <About />
             <Skills />
+            <Experience/>
             <Certificates />
             <Projects />
             <Hackathon />
