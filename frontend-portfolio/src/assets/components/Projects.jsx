@@ -61,6 +61,13 @@ const projects = [
     link: '#', // Replace with your live link
   },
   {
+    title: 'Cold Reach',
+    description: 'ColdReach is a full-stack web application designed to streamline the job application process by sending personalized cold emails with resume attachments and AI-generated cover letters. It integrates Google OAuth for secure login and leverages Groq’s LLaMA3 model to generate tailored cover letters based on the company name.',
+    tags: ['React', 'API', 'CSS'],
+    image: 'https://placehold.co/600x400/1a202c/76e8d8?text=Cold+Reach',
+    link: 'https://github.com/Manjunath2133/ColdReach', // Replace with your live link
+  },
+  {
     title: 'Weather App',
     description: 'A clean, responsive weather application that provides real-time weather data using the OpenWeatherMap API.',
     tags: ['React', 'API', 'CSS'],
