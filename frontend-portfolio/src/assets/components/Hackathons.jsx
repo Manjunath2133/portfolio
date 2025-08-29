@@ -41,6 +41,12 @@ import { Award, Calendar } from 'lucide-react';
 // --- Hackathon Data ---
 const hackathons = [
   {
+    title: 'VTU Hack-2-Intern Challenge',
+    year: '2025',
+    description: 'Successfully cleared the technical writing assessment conducted by VTU, demonstrating strong analytical and documentation skills.',
+    certificate: '#',
+  },
+  {
     title: 'EcoEquify - IBM & BNMIT',
     year: '2024',
     description: 'Developed a sustainability-focused web platform, contributing to the front-end UI and API integration. Placed in the top 5 teams.',
@@ -52,6 +58,7 @@ const hackathons = [
     description: 'Participated in a competitive coding and problem-solving event, honing algorithmic thinking and rapid development skills.',
     certificate: '/certificates/E-Hunt.jpg',
   },
+  
   // Add more hackathons as needed
 ];
 

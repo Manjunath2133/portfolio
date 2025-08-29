@@ -47,17 +47,17 @@ const socialLinks = [
   {
     name: 'GitHub',
     icon: Github,
-    url: 'https://github.com/your-username',
+    url: 'https://github.com/Manjunath2133',
   },
   {
     name: 'LinkedIn',
     icon: Linkedin,
-    url: 'https://linkedin.com/in/your-profile',
+    url: 'https://www.linkedin.com/in/kmanjunath2133/',
   },
   {
     name: 'Email',
     icon: Mail,
-    url: 'mailto:youremail@example.com',
+    url: 'mailto:kmanjunath2133@gmail.com',
   },
 ];
 

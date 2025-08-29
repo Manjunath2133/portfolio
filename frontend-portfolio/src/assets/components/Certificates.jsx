@@ -56,19 +56,19 @@ import { Download } from 'lucide-react';
 const certificates = [
   {
     title: 'Data Base Management System - NPTEL',
-    image: 'https://placehold.co/600x400/1a202c/76e8d8?text=DBMS+Cert',
+    image: 'https://placehold.co/600x400/1a202c/76e8d8?text=DBMS+Certificate',
     file: '/certificates/DBMS.pdf',
   },
   {
     title: 'Full Stack Web Development - Udemy',
-    image: 'https://placehold.co/600x400/1a202c/76e8d8?text=Full+Stack+Cert',
+    image: 'https://placehold.co/600x400/1a202c/76e8d8?text=Full+Stack+Certififcate',
     file: '/certificates/Full stack.pdf',
   },
-  // {
-  //   title: 'Advanced React Concepts - Coursera',
-  //   image: 'https://placehold.co/600x400/1a202c/76e8d8?text=React+Cert',
-  //   file: '/certificates/React.pdf',
-  // },
+  {
+    title: 'Supervised Machine Learning: Regression and Classification - Coursera',
+    image: 'https://placehold.co/600x400/1a202c/76e8d8?text=Supervised+Machine+Learning',
+    file: 'frontend-portfolio/public/certificates/ML course 1.pdf',
+  },
 ];
 
 // --- Animation Variants ---
