@@ -118,7 +118,7 @@ const Home = () => {
       >
         <motion.div className="mb-6" variants={itemVariants}>
           <img
-            src="frontend-portfolio/public/images/my-pic.jpeg"
+            src="public/images/my-pic.jpeg"
             alt="Profile"
             className="w-32 h-32 md:w-40 md:h-40 object-cover rounded-full mx-auto border-4 border-teal-400 shadow-xl shadow-teal-500/20"
           />
