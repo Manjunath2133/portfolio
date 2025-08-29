@@ -31,7 +31,7 @@ const Navbar = () => {
   // Effect to handle scroll-based active link highlighting
   useEffect(() => {
     const handleScroll = () => {
-      const sections = ['home', 'about', 'skills', 'projects', 'contact'];
+      const sections = ['home', 'about', 'skills','experience','certificates', 'projects','hackathons', 'contact'];
       const scrollPosition = window.scrollY + 100; // Offset for better accuracy
 
       sections.forEach(id => {
@@ -50,7 +50,10 @@ const Navbar = () => {
     { id: 'home', title: 'Home' },
     { id: 'about', title: 'About' },
     { id: 'skills', title: 'Skills' },
+    { id: 'experience', title: 'Experience' },
+    { id: 'certificates', title: 'Certificates' },
     { id: 'projects', title: 'Projects' },
+    { id: 'hackathons', title: 'Hackathons' },
     { id: 'contact', title: 'Contact' },
   ];
 
