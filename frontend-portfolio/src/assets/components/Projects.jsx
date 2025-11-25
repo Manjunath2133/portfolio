@@ -1,50 +1,4 @@
-// import React from 'react';
 
-// const Projects = () => {
-//   const projects = [
-//     {
-//       title: 'Portfolio Website',
-//       description: 'A personal website to showcase my work and skills.',
-//       link: '#',
-//     },
-//     {
-//       title: 'Weather App',
-//       description: 'Built with React and OpenWeatherMap API to display real-time weather.',
-//       link: '#',
-//     },
-//     {
-//       title: 'Task Manager',
-//       description: 'A full-stack MERN app to manage daily tasks and priorities.',
-//       link: '#',
-//     },
-//   ];
-
-//   return (
-//     <section id="projects" className="py-20 bg-gray-100 text-gray-800 px-6">
-//       <div className="max-w-5xl mx-auto text-center">
-//         <h2 className="text-3xl md:text-4xl font-bold mb-10">Projects</h2>
-//         <div className="grid gap-8 md:grid-cols-2">
-//           {projects.map((project, index) => (
-//             <div key={index} className="bg-white shadow-md rounded-lg p-6 hover:shadow-xl transition">
-//               <h3 className="text-xl font-semibold mb-2">{project.title}</h3>
-//               <p className="text-gray-600 mb-4">{project.description}</p>
-//               <a
-//                 href={project.link}
-//                 target="_blank"
-//                 rel="noopener noreferrer"
-//                 className="text-teal-500 hover:underline"
-//               >
-//                 View Project →
-//               </a>
-//             </div>
-//           ))}
-//         </div>
-//       </div>
-//     </section>
-//   );
-// };
-
-// export default Projects;
 
 import React from 'react';
 import { motion } from 'framer-motion';
@@ -61,11 +15,25 @@ const projects = [
     link: '#', // Replace with your live link
   },
   {
+    title: 'Complete Offline Translator',
+    description: 'The project “ML-Powered Offline Multilingual Detection and Translator” develops a fully offline, end-to-end system integrating speech recognition, translation, and text processing for multilingual and code-mixed languages. It optimizes modern ML models like OpenAI’s Whisper for efficient, real-time performance on standard devices. The open-source platform enhances accessibility, inclusivity, and collaboration in offline multilingual communication.',
+    tags: ['Java', 'Open-AI Whisper', 'Meta NLLB', 'cmake', 'C++','onnxruntime'],
+    image: 'https://placehold.co/600x400/1a202c/76e8d8?text=Offline+Translator',
+    link: '#', // Replace with your live link
+  },
+  {
     title: 'Cold Reach',
     description: 'ColdReach is a full-stack web application designed to streamline the job application process by sending personalized cold emails with resume attachments and AI-generated cover letters. It integrates Google OAuth for secure login and leverages Groq’s LLaMA3 model to generate tailored cover letters based on the company name.',
     tags: ['React', 'API', 'CSS'],
     image: 'https://placehold.co/600x400/1a202c/76e8d8?text=Cold+Reach',
     link: 'https://github.com/Manjunath2133/ColdReach', // Replace with your live link
+  },
+  {
+    title: 'TripTrove',
+    description: 'Collaborative Trip-Planning Mobile App A full-stack React Native app built for students and friends to manage group travel, featuring real-time data synchronization with Firebase. The app includes a shared itinerary, a group chat, and an advanced expense calculator that automatically settles debts between members. This project demonstrates complex state management, secure user authentication, and third-party API integration for cloud media uploads.',
+    tags: ['React Native', 'Firebase', 'JavaScript'],
+    image: 'https://placehold.co/600x400/1a202c/76e8d8?text=TripTrove',
+    link: '#', // Replace with your live link
   },
   {
     title: 'Weather App',

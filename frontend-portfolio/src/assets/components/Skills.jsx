@@ -55,7 +55,7 @@ const skillCategories = [
   },
   {
     title: 'Languages & Tools',
-    skills: ['Java & DSA', 'C Programming', 'Git & GitHub', 'WordPress', 'Machine Learning'],
+    skills: ['Java & DSA', 'C Programming', 'Git & GitHub', 'WordPress', 'Machine Learning', 'Generative AI'],
   },
 ];
 

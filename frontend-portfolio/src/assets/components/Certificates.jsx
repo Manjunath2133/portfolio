@@ -67,7 +67,12 @@ const certificates = [
   {
     title: 'Supervised Machine Learning: Regression and Classification - Coursera',
     image: 'https://placehold.co/600x400/1a202c/76e8d8?text=Supervised+Machine+Learning',
-    file: 'certificates/ML course 1.pdf',
+    file: '/certificates/ML course 1.pdf',
+  },
+  {
+    title: 'Oracle Cloud Infrastructure Generative AI Professional',
+    image: 'https://placehold.co/600x400/1a202c/76e8d8?text=Oracle+Generative+AI+Professional',
+    file: '/certificates/Oracle Gen AI.pdf',
   },
 ];
 
