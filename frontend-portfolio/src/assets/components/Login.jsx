@@ -22,7 +22,7 @@ const Login = () => {
     e.preventDefault();
     setIsLoading(true); // Show loading spinner
     try {
-      const res = await fetch('https://portfolio-ekt6.onrender.com/login', {
+      const res = await fetch('https://portfolio-nobc.onrender.com/login', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         credentials: 'include', // Important for sending cookies

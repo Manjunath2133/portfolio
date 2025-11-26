@@ -25,7 +25,7 @@ const Signup = () => {
     e.preventDefault();
     setIsLoading(true); // Show loading spinner on button
     try {
-      const res = await fetch('https://portfolio-ekt6.onrender.com/signup', {
+      const res = await fetch('https://portfolio-nobc.onrender.com/signup', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(form),
