@@ -7,7 +7,7 @@ const ProtectedRoute = ({ children }) => {
   useEffect(() => {
     const checkAuth = async () => {
       try {
-        const res = await fetch('https://portfolio-nobc.onrender.com/verify', {
+        const res = await fetch('https://portfolio-nobc.onrender.com/api/auth/verify', {
           method: 'GET',
           credentials: 'include',
         });
