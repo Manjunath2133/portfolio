@@ -24,7 +24,8 @@ app.use(cookieParser());
 
 
 app.use('/api/contact', contactRoutes);
-app.use('/', authRoutes);
+app.use('/api/auth', authRoutes);
+
 
 app.listen(PORT, '0.0.0.0', () => {
   console.log(`Server is running on http://0.0.0.0:${PORT}`);

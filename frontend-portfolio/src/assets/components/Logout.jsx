@@ -46,7 +46,7 @@ const Logout = () => {
   const handleLogout = async () => {
     setIsLoading(true);
     try {
-      const res = await fetch('https://portfolio-nobc.onrender.com/logout', {
+      const res = await fetch('https://portfolio-nobc.onrender.com/api/auth/logout', {
         method: 'POST',
         credentials: 'include', // Important for clearing the cookie
       });
