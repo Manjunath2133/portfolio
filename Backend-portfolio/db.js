@@ -11,7 +11,7 @@ const pool = new Pool({
   // database: process.env.DB_NAME,
   // user: process.env.DB_USER,
   // password: process.env.DB_PASS,
-  connectionString: process.env.DATABASE_URL,
+  connectionString: "postgresql://portfoliodb_25zy_user:y76KLHhUNw2RtLXdRMMjwgKTCpvONRpr@dpg-d4jgbkfgi27c739mfpsg-a.oregon-postgres.render.com/portfoliodb_25zy",
   ssl: {
     rejectUnauthorized: false, // Required by Render
   },
